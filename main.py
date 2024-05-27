@@ -3,10 +3,10 @@ import pygame
 pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((735, 413))
-bg = pygame.image.load('sprites/bg.jpg')
-goose = pygame.image.load('sprites/goose.png')
+bg = pygame.image.load('bg.jpg')
+goose = pygame.image.load('goose.png')
 pygame.display.set_caption('Goose')
-sound = pygame.mixer.Sound('sound/goose.mp3')
+sound = pygame.mixer.Sound('goose.mp3')
 sound.play()
 x = 0
 run = True
